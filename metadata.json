@@ -1,0 +1,6 @@
+{
+  "name": "Elementa — Periodic Table Flashcards",
+  "description": "Interactive dark-themed periodic table explorer and flashcard trainer for mastering chemical element names and symbols.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

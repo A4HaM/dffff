@@ -1,0 +1,80 @@
+export interface LanguageMetadata {
+  id: string;
+  nativeName: string;
+  englishName: string;
+  rtl?: boolean;
+}
+
+export const ALL_LANGUAGES: LanguageMetadata[] = [
+  { id: 'en', nativeName: 'English', englishName: 'English' },
+  { id: 'zh', nativeName: '中文 (简体)', englishName: 'Chinese (Simplified)' },
+  { id: 'zh-TW', nativeName: '中文 (繁體)', englishName: 'Chinese (Traditional)' },
+  { id: 'hi', nativeName: 'हिन्दी', englishName: 'Hindi' },
+  { id: 'es', nativeName: 'Español', englishName: 'Spanish' },
+  { id: 'ar', nativeName: 'العربية', englishName: 'Arabic', rtl: true },
+  { id: 'fr', nativeName: 'Français', englishName: 'French' },
+  { id: 'bn', nativeName: 'বাংলা', englishName: 'Bengali' },
+  { id: 'pt', nativeName: 'Português', englishName: 'Portuguese' },
+  { id: 'ru', nativeName: 'Русский', englishName: 'Russian' },
+  { id: 'ur', nativeName: 'اردو', englishName: 'Urdu', rtl: true },
+  { id: 'id', nativeName: 'Bahasa Indonesia', englishName: 'Indonesian' },
+  { id: 'de', nativeName: 'Deutsch', englishName: 'German' },
+  { id: 'ja', nativeName: '日本語', englishName: 'Japanese' },
+  { id: 'sw', nativeName: 'Kiswahili', englishName: 'Swahili' },
+  { id: 'mr', nativeName: 'मराठी', englishName: 'Marathi' },
+  { id: 'te', nativeName: 'తెలుగు', englishName: 'Telugu' },
+  { id: 'tr', nativeName: 'Türkçe', englishName: 'Turkish' },
+  { id: 'ta', nativeName: 'தமிழ்', englishName: 'Tamil' },
+  { id: 'yue', nativeName: '粵語', englishName: 'Cantonese' },
+  { id: 'wuu', nativeName: '吴语', englishName: 'Wu Chinese' },
+  { id: 'vi', nativeName: 'Tiếng Việt', englishName: 'Vietnamese' },
+  { id: 'ko', nativeName: '한국어', englishName: 'Korean' },
+  { id: 'fa', nativeName: 'فارسی', englishName: 'Persian', rtl: true },
+  { id: 'it', nativeName: 'Italiano', englishName: 'Italian' },
+  { id: 'ha', nativeName: 'Hausa', englishName: 'Hausa' },
+  { id: 'pa', nativeName: 'ਪੰਜਾਬੀ', englishName: 'Punjabi' },
+  { id: 'jv', nativeName: 'Basa Jawa', englishName: 'Javanese' },
+  { id: 'th', nativeName: 'ไทย', englishName: 'Thai' },
+  { id: 'gu', nativeName: 'ગુજરાતી', englishName: 'Gujarati' },
+  { id: 'kn', nativeName: 'ಕನ್ನಡ', englishName: 'Kannada' },
+  { id: 'am', nativeName: 'አማርኛ', englishName: 'Amharic' },
+  { id: 'pl', nativeName: 'Polski', englishName: 'Polish' },
+  { id: 'uk', nativeName: 'Українська', englishName: 'Ukrainian' },
+  { id: 'ml', nativeName: 'മലയാളം', englishName: 'Malayalam' },
+  { id: 'or', nativeName: 'ଓଡ଼ିଆ', englishName: 'Odia' },
+  { id: 'my', nativeName: 'မြန်မာဘာသာ', englishName: 'Burmese' },
+  { id: 'yo', nativeName: 'Yorùbá', englishName: 'Yoruba' },
+  { id: 'ig', nativeName: 'Igbo', englishName: 'Igbo' },
+  { id: 'om', nativeName: 'Afaan Oromoo', englishName: 'Oromo' },
+  { id: 'fil', nativeName: 'Filipino', englishName: 'Filipino / Tagalog' },
+  { id: 'nl', nativeName: 'Nederlands', englishName: 'Dutch' },
+  { id: 'ms', nativeName: 'Bahasa Melayu', englishName: 'Malay' },
+  { id: 'uz', nativeName: 'Oʻzbekcha', englishName: 'Uzbek' },
+  { id: 'sd', nativeName: 'سنڌي', englishName: 'Sindhi', rtl: true },
+  { id: 'ps', nativeName: 'پښتو', englishName: 'Pashto', rtl: true },
+  { id: 'ne', nativeName: 'नेपाली', englishName: 'Nepali' },
+  { id: 'ro', nativeName: 'Română', englishName: 'Romanian' },
+  { id: 'su', nativeName: 'Basa Sunda', englishName: 'Sundanese' },
+  { id: 'az', nativeName: 'Azərbaycan dili', englishName: 'Azerbaijani' },
+  { id: 'bho', nativeName: 'भोजपुरी', englishName: 'Bhojpuri' },
+  { id: 'mai', nativeName: 'मैथिली', englishName: 'Maithili' },
+  { id: 'si', nativeName: 'සිංහල', englishName: 'Sinhala' },
+  { id: 'ku', nativeName: 'Kurdî', englishName: 'Kurdish' },
+  { id: 'mg', nativeName: 'Malagasy', englishName: 'Malagasy' },
+  { id: 'so', nativeName: 'Soomaali', englishName: 'Somali' },
+  { id: 'km', nativeName: 'ភាសាខ្មែរ', englishName: 'Khmer' },
+  { id: 'zu', nativeName: 'isiZulu', englishName: 'Zulu' },
+  { id: 'xh', nativeName: 'isiXhosa', englishName: 'Xhosa' },
+  { id: 'rw', nativeName: 'Ikinyarwanda', englishName: 'Kinyarwanda' },
+  { id: 'ff', nativeName: 'Fulfulde', englishName: 'Fulah' },
+  { id: 'ny', nativeName: 'Chichewa', englishName: 'Chichewa' },
+  { id: 'ceb', nativeName: 'Cebuano', englishName: 'Cebuano' },
+  { id: 'as', nativeName: 'অসমীয়া', englishName: 'Assamese' },
+  { id: 'kk', nativeName: 'Қазақша', englishName: 'Kazakh' },
+];
+
+export type SupportedLanguage = (typeof ALL_LANGUAGES)[number]['id'];
+
+export function getLanguageMeta(id: string): LanguageMetadata {
+  return ALL_LANGUAGES.find((l) => l.id === id) ?? ALL_LANGUAGES[0];
+}
